@@ -1,0 +1,5 @@
+mutation toggleIsCompleted($id: ID!) {
+  todoToggleIsCompleted(id: $id) {
+    __typename
+  }
+}

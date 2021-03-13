@@ -1,0 +1,13 @@
+{
+  "name": "live-queries-playground",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "resolutions": {
+    "graphql": "15.4.0-experimental-stream-defer.1"
+  }
+}
